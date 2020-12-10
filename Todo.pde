@@ -6,6 +6,6 @@ void void setup() {
 
 void draw() {
     noFill();
-    stroke(0, 0, 255);
+    stroke(255, 0, 255);
     ellipse(300, 200, 180, 180);
 }

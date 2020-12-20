@@ -1,19 +1,20 @@
-class Display{
-    Display(){
-        cards = new ArrayList<Card>();
-        buttons = new ArrayList<Button>();
+class Display{//viewに表示させるクラス
+    Display(){//初期値
+        cards = new ArrayList<Card>();//カードのリスト
+        buttons = new ArrayList<Button>();//ページ切り替えのボタン
     }
 
 
     ArrayList<Card> cards;
-    ArrayList<Button> buttons; #仮
+    ArrayList<Button> buttons;
+    //int cardSize;
 
-    void deleteCard(int i){
-        cards.remove(i);
+    void deleteCard(int index){//カード削除
+        cards.remove(index);//カードのリストからindexを消す
     }
 
-    void moveCard(){
-
+    void addCard(){
+        
     }
 
 }

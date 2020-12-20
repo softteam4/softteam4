@@ -1,4 +1,4 @@
-class Card{
+class Card{//カード情報
     Card(int x, int y, int width, int height, String deadline){
             this.x = x;
             this.y = y;
@@ -8,9 +8,9 @@ class Card{
     }
 
 
-    int x, y, width, height;
-    String title, memo, deadline;
-    Button button;
+    int x, y, width, height;//カードの場所
+    String title, memo, deadline;//
+    Button button;//カードの削除ボタン
 
 
     void setTitle(String title){
